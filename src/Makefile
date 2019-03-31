@@ -1,12 +1,12 @@
 #*************************************************************************
-#Title:    MRB-AVRTEMPLATE Makefile
+#Title:    CKT-TINYBELL Makefile
 #Authors:  Michael Petersen <railfan@drgw.net>
 #          Nathan Holmes <maverick@drgw.net>
-#File:     MRB-AVRTEMPLATE Makefile
+#File:     CKT-TINYBELL Makefile
 #License:  GNU General Public License v3
 #
 #LICENSE:
-#    Copyright (C) 2012 Nathan Holmes and Michael Petersen
+#    Copyright (C) 2019 Nathan Holmes and Michael Petersen
 #
 #    Derived from example WinAVR project Makefile
 #
@@ -31,7 +31,7 @@ BASE_NAME = ckt-tinybell
 DEVICE  = attiny85
 F_CPU   = 8000000  # Hz
 FUSE_L  = 0xE2
-FUSE_H  = 0xD5
+FUSE_H  = 0xC5
 FUSE_E  = 0xFF
 
 #PROGRAMMER_TYPE=avrispmkii
